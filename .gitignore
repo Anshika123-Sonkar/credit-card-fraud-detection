@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dataset (do not commit the Kaggle CSV)
+data/*.csv
+data/*.zip
+
+# Trained models and generated evaluation artifacts
+models/*.joblib
+models/*.pkl
+reports/*.png
+reports/*.json
+reports/*.csv
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
